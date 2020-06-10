@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Validar Tarjeta de crédito</title>
+  <meta charset="UTF-8">
+  <link href="estilos.css" rel="stylesheet" />
+  <script src="validarTarjeta.js"></script>
+</head>
+<body>
+  <h2 align="center">Validar Tarjeta de crédito</h3>
+  <div align="center">
+    <div class="grupo-formulario">
+      Ingrese el N&uacute;mero de Tarjeta:&nbsp;&nbsp;
+      <input id="numero_tarjeta" type="text" value="" name="numero_tarjeta" placeholder="16 digitos (números enteros)" size="20" required/>
+      <span class="requerido">*</span>
+    </div>        
+    <div class="grupo-formulario">
+      <input id="BtnValidar" type="button" value="Validar" name="BtnValidar" onclick="enviar()"/>
+    </div>          
+  </div>
+  <br>
+  <br>
+  <div align="center">
+      <h4>Resultado de la validación:</h4>  
+      <div id="resultado">
+      </div>  
+  </div>
+</body>
+</html>

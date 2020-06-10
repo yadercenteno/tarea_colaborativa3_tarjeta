@@ -1,0 +1,44 @@
+h2 {
+  color: #3366CC;
+}
+.limpiar{
+  clear: both;
+}
+.grupo-formulario{
+  margin:5px 0;
+}
+.grupo-formulario input:not([type="submit"]), .grupo-formulario select{
+  box-sizing: border-box;
+  border: 1px solid #bebebe;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding:7px;
+  margin:5px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+}
+.grupo-formulario input:not([type="submit"]):focus, .grupo-formulario select:focus{
+  -moz-box-shadow: 0 0 8px #88D5E9;
+  -webkit-box-shadow: 0 0 8px #88D5E9;
+  box-shadow: 0 0 8px #88D5E9;
+  border: 1px solid #88D5E9;
+}
+.grupo-formulario input[type=submit]{
+  background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+.grupo-formulario input[type=submit]:hover{
+  background: #6691A4;
+  box-shadow:none;
+  -moz-box-shadow:none;
+  -webkit-box-shadow:none;
+}
+.grupo-formulario .requerido{
+  color: red;
+}
